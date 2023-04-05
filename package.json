@@ -2,12 +2,12 @@
   "name": "goit-js-hw-08",
   "version": "1.0.0",
   "description": "",
-   "homepage": "https://szymonoponczewski.github.io/goit-js-hw-08/",
+  "homepage": "https://szymonoponczewski.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url /goit-js-hw-08/"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/szymonoponczewski/goit-js-hw-08.git"
   },
@@ -16,5 +16,11 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.13.0"
   }
 }
