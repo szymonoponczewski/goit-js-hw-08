@@ -23,7 +23,10 @@ form.addEventListener("submit", (e) => {
   localStorage.removeItem(storageKey);
   emailInput.value = "";
   messageInput.value = "";
-  console.log("Form data cleared");
+  console.log("Form data cleared: ", {
+    email: emailInput.value,
+    message: messageInput.value,
+  });
 });
 
 function SetItem() {
